@@ -1,0 +1,64 @@
+main{
+    display: flex;
+    margin:auto;
+    justify-content: center;
+    
+
+}
+h2{
+    background-color: white;
+    padding: 20px 40px;
+}
+p{
+    background-color: white;
+    padding: 20px 40px;
+}
+h1{
+    border: solid 2px black;
+    padding: 30px;
+}
+#btn-container{
+    width: 250px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+button{
+    font-size: 25px;
+}
+#score-btn-container{
+    display:flex;
+    justify-content: space-evenly;
+}
+#scoreboard{
+    border: 2px solid black;
+    width: 500px;
+    
+    
+}
+
+#header{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#score{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    font-size: x-large;
+    background-color: lightgrey;
+}
+
+#footer{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    background-color: lightgrey;
+}

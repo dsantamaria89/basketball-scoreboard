@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Basketball Scoreboard</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="scoreboard.css">
+    </head>
+    <body>
+        <main>
+            <section id="scoreboard-container">
+                <div id="scoreboard">
+                    <div id="header">
+                        <h1>Home</h1>
+                        <h1>Guest</h1>
+                    </div>
+                    <div id="score">
+                        <h2 id="score-home">0</h2>
+                        <h2 id="score-guest">0</h2>
+                    </div>
+                    <div id="footer">
+                        <p id="time">
+                            12:00
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="btn-container">
+                <div id="score-btn-container">
+                    <div id="home-btn-container">
+                        <h3>Home Score</h3>
+                        <button id="add-1-home-btn">1</button>
+                        <button id="add-2-home-btn">2</button>
+                        <button id="add-3-home-btn">3</button>
+                    </div>
+                    <div id="guest-btn-container">
+                        <h3>Guest Score</h3>
+                        <button id="add-1-guest-btn">1</button>
+                        <button id="add-2-guest-btn">2</button>
+                        <button id="add-3-guest-btn">3</button>
+                    </div>
+                </div id="time-btn-container">
+                <button id="time-start-btn">Time Start</button>
+                <button id="time-stop-btn">Time Stop</button>
+                <button id="reset-btn">Reset Game</button>
+            </section>
+        </main>
+    </body>
+    <script src="scoreboard.js"></script>
+</html>
