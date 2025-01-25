@@ -43,6 +43,7 @@ function timer(){
 resetBtn.onclick = function(){
     homeScore = 0;
     guestScore = 0;
+    totalTime = 720;
     timeEl.textContent = '12:00';
     homeScoreEl.textContent = `0`;
     guestScoreEl.textContent = `0`;
